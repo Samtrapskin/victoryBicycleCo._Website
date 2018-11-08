@@ -145,6 +145,13 @@
 </footer>
   
   
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous">
+</script> 
+
+<script src='js/main.js'></script> 
   <script>
   function myFunction() {
       var x = document.getElementById("myTopnav");
@@ -154,6 +161,16 @@
           x.className = "topnav";
       }
   }
+
+  $(document).ready(() => {
+  const $dropBtn = $('.dropbtn');
+  const $$dropownContent = $('.dropdownContent');
+	$dropbtn.on('click', () => {
+      $dropdownContent.show();     
+   })
+
+
+})
   </script>
   
   
@@ -162,3 +179,6 @@
 </body>
 
 </html>
+
+
+dropdown-content
