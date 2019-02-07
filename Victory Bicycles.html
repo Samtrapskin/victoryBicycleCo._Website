@@ -1,63 +1,71 @@
+<!DOCTYPE html>
 
-    <!DOCTYPE html>
-    
-    <html lang="en"> 
-        <head>
-           <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-              <link href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet">
-             
-          <title>Bike 2 Victory!</title>
+<html lang="en">
 
-          <meta name="description" content="Responsive Header Nav">
-          <meta name="author" content="Treehouse">
-          <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
-          <link rel="stylesheet" href="style.css">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet">
 
-          <!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
 
 
-        </head>
+  <title>Bike 2 Victory!</title>
+
+  <meta name="description" content="Responsive Header Nav">
+  <meta name="author" content="Treehouse">
+  <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+  <script src="jquery-3.3.min.js" charset="utf-8"></script>
+  <script src="jquery.js" charset="utf-8"></script>
+
+  <!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+
+</head>
 
 <body>
-<header>
-<div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <a href="#location">Location</a>
-    <a href="#resources">Resources</a>
-  <div class="dropdown">
-      <button class="dropbtn">Shop 
-        <i class="fa fa-caret-down"></i>
-      </button>
-  <div class="dropdown-content">
-        <a href="#">New Bikes</a>
-        <a href="#">Helmets</a>
-        <a href="#">Accesories</a>
-  </div>
-  </div> 
-    <a href="contact">Contact</a>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-  
+  <section id="home">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
 
-      
-        <img  id="topImage" src="images/biketowork.jpg">
-  </header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Victory Bicycle Company</a>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<section id="home">
-  <div class="section-text">
-      <h1>Victory Bicycle Company</h1>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="">About Us</a></li>
+            <li class="nav-item-pricing"><a class="nav-link" href="">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Classes</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
 
-      <div class="landingPage">
-        <img src="images/Hufnagal.jpg">
+          </ul>
+
+      </nav>
+    
+    <div class="row">
+      <div class="col">
+        <img id="main-image" src="images/black-bike.jpg" alt="feature bike">
       </div>
     </div>
+  </div> 
+
+ 
+      
+
   </section>
 
 
-<section id="location">
-  <div class="section-text">
-    <h3 id="hours">Hours and Location</h3>
+  <section id="location">
+    <div class="section-text">
+      <h3 id="hours">Hours and Location</h3>
 
       <p class="company-headline">Victory Bicycle Company</p>
       <p>2255 East 22nd Street</p>
@@ -66,99 +74,96 @@
       <div>
         <img src="images/location.png">
       </div>
-      
+
       <p class="company-headline">Hours:</p>
       <p>Monday - Friday 10AM-9PM</p>
       <p>Saturday 10AM-6PM</p>
       <p class="last">Sunday .. nope</p>
-  </div>
-</section>
-
-<section id="resources">
-
-<div class="section-text">
-  <h2 class="black-heading">Repairs</h2>
-
-    <div class="block1">
-          <p class="repair-p">Our Bike doctor's will get you back to riding in no time.
-            <br />
-            Call today to get a quote on any repair!
-            <br />
-            <br />
-
-            Shop: 612-722-9947
-          </p>
-      </div>
-        <div class="block2">
-          
-           <img src="images/repair.jpg">
-          
-        </div>
-
-        <div class="block3">
-         
-          <p class="repair-p">
-            <a href="#" style="color: yellow;">Click here</a> to schedule your appointment! Our turn-around time is
-              the fastest in the city !!!
-            
-          </p>
-          <br />
-          <br />
-        </div>
-        <hr>
-  <h2 class="black-heading2">Classes</h2>
-  <div class="block1">
-      <p class="repair-p">Weekly classes for beginers to novice riders.
-        <br />
-        Sign up for our newsletter to get updates and info on all upcoming classes!
-        <br />
-        <br />
-
-        Training: 612-722-9947
-      </p>
-  </div>
-  <div class="block2">
-          
-      <img src="images/class-bike.jpg">
-     
-   </div>
-   <div class="block3">
-         
-      <p class="repair-p">
-        <a href="#" style="color: yellow;">Sign Up</a> for coupons and special discoints on classes and accesories! 
-
-        
-      </p>
-      <br />
-      <br />
     </div>
-</div>
- 
+  </section>
+
+  <section id="resources">
+
+    <div class="section-text">
+      <h2 class="black-heading">Repairs</h2>
+
+      <div class="block1">
+        <p class="repair-p">Our Bike doctor's will get you back to riding in no time.
+          <br />
+          Call today to get a quote on any repair!
+          <br />
+          <br />
+
+          Shop: 612-722-9947
+        </p>
+      </div>
+      <div class="block2">
+
+        <img src="images/repair.jpg">
+
+      </div>
+
+      <div class="block3">
+
+        <p class="repair-p">
+          <a href="#" style="color: yellow;">Click here</a> to schedule your appointment! Our turn-around time is
+          the fastest in the city !!!
+
+        </p>
+        <br />
+        <br />
+      </div>
+      <hr>
+      <h2 class="black-heading2">Classes</h2>
+      <div class="block1">
+        <p class="repair-p">Weekly classes for beginers to novice riders.
+          <br />
+          Sign up for our newsletter to get updates and info on all upcoming classes!
+          <br />
+          <br />
+
+          Training: 612-722-9947
+        </p>
+      </div>
+      <div class="block2">
+
+        <img src="images/class-bike.jpg">
+
+      </div>
+      <div class="block3">
+
+        <p class="repair-p">
+          <a href="#" style="color: yellow;">Sign Up</a> for coupons and special discoints on classes and accesories!
 
 
-</section>
+        </p>
+        <br />
+        <br />
+      </div>
+    </div>
 
-<footer>
+
+
+  </section>
+
+  <footer>
 
 
 
-</footer>
-  
-  
-  <script>
-  function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-          x.className += " responsive";
-      } else {
-          x.className = "topnav";
-      }
-  }
+  </footer>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous">
   </script>
-  
-  
-
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
