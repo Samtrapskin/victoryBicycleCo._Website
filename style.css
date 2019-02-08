@@ -35,24 +35,17 @@ body{
 
 
 
-/* HOME SECTION */
-
-.landingPage img {
-  /* display: fixed; */
-  max-width: 40%;
-  height: auto;
-  margin-bottom: 20px;
- 
-}
-
-
-#home {
-  color: white;
+/* *** ABOUT US *** */
+#about-us {
   text-align: center;
-  padding-bottom: 40px;
+  color: #fff;
+  background-color: #201A15;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
 }
 
-/* END HOME SECTION*/
+/* *** END ABOUT US *** */
 
 /* LOCATION SECTION */
 #location {
