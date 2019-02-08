@@ -30,6 +30,8 @@ body{
 
 #main-image{
   max-width: 100%;
+  margin: 10px auto; 
+  text-align: center;
 }
   
 
@@ -39,7 +41,7 @@ body{
 #about-us {
   text-align: center;
   color: #fff;
-  background-color: #201A15;
+  background-color: #02A6B8;
 }
 .download-button {
   margin: 5% 3% 5% 0;
