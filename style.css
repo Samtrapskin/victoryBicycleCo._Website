@@ -3,6 +3,11 @@ body{
   background-color: black;
 }
 
+h1 {
+  font-family: 'Oleo Script';
+  color: #fff;
+  text-align: center;
+}
 .container-fluid {
   padding: 3% 5%;
 }
@@ -14,8 +19,8 @@ body{
   padding: 0 0 4.5rem 0;
 }
 .navbar-brand {
-  font-family: 'Ubuntu';
-  font-size: 1.5rem bold;
+  font-family: 'Oleo+Script';
+  font-size: 1.5rem;
 }
 
 .nav-item {
