@@ -5,6 +5,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=El+Messiri|Oleo+Script|Yellowtail" rel="stylesheet">
 
 
@@ -15,7 +16,7 @@
   <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-  crossorigin="anonymous">
+    crossorigin="anonymous">
 
 
   <title>Bike 2 Victory!</title>
@@ -47,7 +48,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="">About Us</a></li>
-            <li class="nav-item-pricing"><a class="nav-link" href="">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Shop</a></li>
             <li class="nav-item"><a class="nav-link" href="">Classes</a></li>
             <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
 
@@ -68,6 +69,96 @@
 
   </section>
 
+  <hr>
+
+
+  <section id="quick-shop">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <h3 class="shop-text">Shop</h3>
+          <button type="button" class=" shop-button btn btn-primary">Main shop page</button>
+
+          <p class="shop-text">Quick links</p>
+
+
+          <!-- /* *** button dropdown *** */ -->
+          <div class="btn-group-vertical" role="group" aria-label="Button group with nested dropdown">
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="background-color:black; font-family:'Assistant', sans-serif;">
+                Bikes
+              </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="#">All</a>
+                <a class="dropdown-item" href="#" >Commuter/Urban</a>
+                <a class="dropdown-item" href="#">Hybrid</a>
+                <a class="dropdown-item" href="#">Mountain</a>
+                <a class="dropdown-item" href="#">Fat Bikes</a>
+                <a class="dropdown-item" href="#">Road</a>
+                <a class="dropdown-item" href="#">Children</a>
+                <a class="dropdown-item" href="#">Clearance</a>
+                <a class="dropdown-item" href="#">Used</a>
+              </div>
+            </div>
+            <!--section-->
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="background-color:black; font-family:'Assistant', sans-serif;">
+                Helmets
+              </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="#">All</a>
+                <a class="dropdown-item" href="#">Accessories/Parts</a>
+                <a class="dropdown-item" href="#">Adults</a>
+                <a class="dropdown-item" href="#">Children</a>
+              </div>
+            </div>
+            <!--section-->
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="background-color:black; font-family:'Assistant', sans-serif;">
+                Parts
+              </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <a class="dropdown-item" href="#">All</a>
+                <a class="dropdown-item" href="#">Tires and Tubes</a>
+                <a class="dropdown-item" href="#">Seats and Saddles</a>
+                <a class="dropdown-item" href="#">Brakes</a>
+                <a class="dropdown-item" href="#">Handlebars</a>
+                <a class="dropdown-item" href="#">Shifters</a>
+                <a class="dropdown-item" href="#">Cables</a>
+                <a class="dropdown-item" href="#">Suspension</a>
+                <a class="dropdown-item" href="#">Other</a>
+              </div>
+            </div>
+            <!--section-->
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="background-color:black; font-family:'Assistant', sans-serif;">
+                Accessories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <a class="dropdown-item" href="#">All</a>
+                <a class="dropdown-item" href="#">Child seasts</a>
+                <a class="dropdown-item" href="#">Clothing</a>
+                <a class="dropdown-item" href="#">Electronics</a>
+                <a class="dropdown-item" href="#">Hydration</a>
+                <a class="dropdown-item" href="#">Lights</a>
+                <a class="dropdown-item" href="#">Locks and security</a>
+                <a class="dropdown-item" href="#">Pumps/Inflation</a>
+                <a class="dropdown-item" href="#">Tools/Maintenance</a>
+                <!-- /* *** end button dropdown *** */ -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
   <!-- *** ABOUT US SECTION *** -->
 
   <section id="about-us">
@@ -75,7 +166,7 @@
       <div class="row">
         <div class="col-lg-4">
           <h3>Our Story</h3>
-          <p>Victory has been the longest running neighborhood bike shop in Minneapolis.
+          <p class="our-story">Victory has been the longest running neighborhood bike shop in Minneapolis.
             Family owned, we've been keeping people riding and informed since 1956! Yes we sell
             super awesome bicycles, but we also provide classes and have THE best bike repair shop in the
             midwest.
@@ -92,7 +183,7 @@
           <p>Email:&nbsp;&nbsp;<a href="">bicycles@victorybicycles.com</a></p>
           <i class="fab fa-facebook-square"></i>&nbsp;&nbsp;<i class="fab fa-twitter"></i>&nbsp;&nbsp;<i class="fab fa-linkedin"></i>
 
-           
+
         </div>
       </div>
     </div>

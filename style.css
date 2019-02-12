@@ -7,11 +7,35 @@ h1 {
   font-family: 'Oleo Script';
   color: #fff;
   text-align: center;
+  padding-left: 42px;
 }
 .container-fluid {
   padding: 3% 5%;
 }
 
+hr{
+  color: #808389;
+  font-size: 3rem;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.shop-button {
+  margin-bottom: 60px;
+  font-family: 'Assistant', sans-serif;
+
+
+}
+
+.shop-text {
+  font-family: 'Assistant', sans-serif;
+  color: #fff;
+}
 
 /* Navigation bar */
 
@@ -35,10 +59,15 @@ h1 {
 
 #main-image{
   max-width: 100%;
-  margin: 10px auto; 
+  margin: 10px 0 10px 125px; 
   text-align: center;
 }
-  
+
+@media (max-width: 1330px) {
+  #main-image {
+    margin: 10px 8px 10px 8px;
+  }
+}
 
 
 
@@ -46,10 +75,14 @@ h1 {
 #about-us {
   text-align: center;
   color: #fff;
-  background-color: #02A6B8;
+  background-color: black;
 }
 .download-button {
   margin: 5% 3% 5% 0;
+}
+
+.our-story {
+  font-family: 'Assistant', sans-serif;
 }
 
 /* *** END ABOUT US *** */
