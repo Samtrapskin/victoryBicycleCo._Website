@@ -25,17 +25,6 @@ hr{
   border-width: 1px;
 }
 
-.shop-button {
-  margin-bottom: 60px;
-  font-family: 'Assistant', sans-serif;
-
-
-}
-
-.shop-text {
-  font-family: 'Assistant', sans-serif;
-  color: #fff;
-}
 
 /* Navigation bar */
 
@@ -69,9 +58,43 @@ hr{
   }
 }
 
+ @media (max-width: 768px) {
+  #shop-buttons {
+    margin: 0 0 0 109px;
+  }
+} 
+/* @media (min-width: 760px) {
+  #shop-buttons {
+    margin: 0 0 0 40px;
+  }
+}  */
+ /* SHOP SECTION  */
+
+ #quick-shop {
+   margin-bottom: 175px;
+ }
+
+ .all-buttons {
+   margin-left: 40px;
+ }
+ .shop-button {
+  margin-bottom: 60px;
+  font-family: 'Assistant', sans-serif;
 
 
-/* *** ABOUT US *** */
+}
+
+.shop-text {
+  font-family: 'Assistant', sans-serif;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.carousel {
+  margin-top: 40px;
+}
+
+/* ABOUT US */
 #about-us {
   text-align: center;
   color: #fff;
@@ -85,7 +108,7 @@ hr{
   font-family: 'Assistant', sans-serif;
 }
 
-/* *** END ABOUT US *** */
+/* END ABOUT US */
 
 /* LOCATION SECTION */
 #location {
@@ -108,6 +131,7 @@ hr{
 
 }
 /* END LOCATION SECTION */
+
 
 /* RESOURCES */
 #resources  {
