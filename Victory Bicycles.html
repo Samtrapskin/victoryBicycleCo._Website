@@ -78,88 +78,79 @@
       <div class="row">
         <div class="col-lg-4 col-sm-6">
           <div id="shop-buttons">
-          <h3 class="shop-text">Shop</h3>
-          <button type="button" class=" shop-button btn btn-primary">Main shop page</button>
+            <h3 class="shop-text">Shop</h3>
+            <button type="button" class=" shop-button btn btn-primary">Main shop page</button>
+          </div>
 
-          <p class="shop-text">Quick links</p>
+          <!-- SHOP DROPDOWNS -->
 
+          <div class="shop-buttons btn-group">
+            <button type="button" class="bikes-button btn btn-primary dropdown-toggle" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Bikes
+            </button>
 
-          <!-- /* *** button dropdown *** */ -->
-          <div class="btn-group-vertical" role="group" aria-label="Button group with nested dropdown">
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false" style="background-color:black; font-family:'Assistant', sans-serif;">
-                Bikes
-              </button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" href="#">All</a>
-                <a class="dropdown-item" href="#">Commuter/Urban</a>
-                <a class="dropdown-item" href="#">Hybrid</a>
-                <a class="dropdown-item" href="#">Mountain</a>
-                <a class="dropdown-item" href="#">Fat Bikes</a>
-                <a class="dropdown-item" href="#">Road</a>
-                <a class="dropdown-item" href="#">Children</a>
-                <a class="dropdown-item" href="#">Clearance</a>
-                <a class="dropdown-item" href="#">Used</a>
-              </div>
-            </div>
-            <!--group-->
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false" style="background-color:black; font-family:'Assistant', sans-serif;">
-                Helmets
-              </button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" href="#">All</a>
-                <a class="dropdown-item" href="#">Accessories/Parts</a>
-                <a class="dropdown-item" href="#">Adults</a>
-                <a class="dropdown-item" href="#">Children</a>
-              </div>
-            </div>
-            <!--group-->
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false" style="background-color:black; font-family:'Assistant', sans-serif;">
-                Parts
-              </button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" href="#">All</a>
-                <a class="dropdown-item" href="#">Tires and Tubes</a>
-                <a class="dropdown-item" href="#">Seats and Saddles</a>
-                <a class="dropdown-item" href="#">Brakes</a>
-                <a class="dropdown-item" href="#">Handlebars</a>
-                <a class="dropdown-item" href="#">Shifters</a>
-                <a class="dropdown-item" href="#">Cables</a>
-                <a class="dropdown-item" href="#">Suspension</a>
-                <a class="dropdown-item" href="#">Other</a>
-              </div>
-            </div>
-            <!--group-->
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false" style="background-color:black; font-family:'Assistant', sans-serif;">
-                Accessories
-              </button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" href="#">All</a>
-                <a class="dropdown-item" href="#">Child seasts</a>
-                <a class="dropdown-item" href="#">Clothing</a>
-                <a class="dropdown-item" href="#">Electronics</a>
-                <a class="dropdown-item" href="#">Hydration</a>
-                <a class="dropdown-item" href="#">Lights</a>
-                <a class="dropdown-item" href="#">Locks and security</a>
-                <a class="dropdown-item" href="#">Pumps/Inflation</a>
-                <a class="dropdown-item" href="#">Tools/Maintenance</a>
-                <!-- /* *** end button dropdown *** */ -->
-              </div>
+            <div class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <a class="dropdown-item" href="#">Main</a>
+              <a class="dropdown-item" href="#">Commuter/Urban</a>
+              <a class="dropdown-item" href="#">Hybrid</a>
+              <a class="dropdown-item" href="#">Mountain</a>
+              <a class="dropdown-item" href="#">Childrens</a>
+              <a class="dropdown-item" href="#">E-bikes</a>
+              <a class="dropdown-item" href="#">Clearance</a>
             </div>
           </div>
-        </div>
+          <br />
+          <div class="btn-group">
+            <button type="button" class="accessories-button btn btn-primary dropdown-toggle" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Accessories
+            </button>
+
+            <div class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <a class="dropdown-item" href="#">Main</a>
+              <a class="dropdown-item" href="#">Child seats</a>
+              <a class="dropdown-item" href="#"> Safety</a>
+              <a class="dropdown-item" href="#">Clothing</a>
+              <a class="dropdown-item" href="#">Electronics</a>
+              <a class="dropdown-item" href="#">Hydration</a>
+              <a class="dropdown-item" href="#">Lights</a>
+              <a class="dropdown-item" href="#">Locks and security</a>
+              <a class="dropdown-item" href="#">Pumps/Inflation</a>
+              <a class="dropdown-item" href="#">Tools/Maintenance</a>
+              <a class="dropdown-item" href="#">Clearance</a>
+            </div>
+
+
+          </div>
+          <br />
+          <div class="btn-group">
+            <button type="button" class="parts-button btn btn-primary dropdown-toggle" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Parts
+            </button>
+
+            <div class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <a class="dropdown-item" href="#">Main</a>
+              <a class="dropdown-item" href="#">Tires and Tubes</a>
+              <a class="dropdown-item" href="#">Seats and Saddles</a>
+              <a class="dropdown-item" href="#">Brakes</a>
+              <a class="dropdown-item" href="#">Handlebars</a>
+              <a class="dropdown-item" href="#">Shifters</a>
+              <a class="dropdown-item" href="#">Cables</a>
+              <a class="dropdown-item" href="#">Suspension</a>
+              <a class="dropdown-item" href="#">Other</a>
+
+            </div>
+
+
+          </div>
         </div>
 
-     
-      <!-- carousel -->
-      <!-- <div class="col-lg-2"></div> -->
+        <!-- END SHOP DROPDOWNS -->
+
+        <!-- carousel -->
+        <!-- <div class="col-lg-2"></div> -->
         <div class="carousel col-lg-6">
           <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -173,8 +164,8 @@
                 <img src="images/CyclingSunday.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                  <img src="images/winter.png" class="d-block w-100" alt="...">
-                </div>
+                <img src="images/winter.png" class="d-block w-100" alt="...">
+              </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -186,6 +177,9 @@
             </a>
           </div>
         </div>
+
+
+
       </div>
     </div>
   </section>
@@ -255,35 +249,35 @@
         <br />
         <br />
       </div>
-    </section>
-      <hr>
-      <section id="class">
-      <h2 class="black-heading2">Classes</h2>
-      <div class="block1">
-        <p class="repair-p">Weekly classes for beginers to novice riders.
-          <br />
-          Sign up for our newsletter to get updates and info on all upcoming classes!
-          <br />
-          <br />
-
-          Training: 612-722-9947
-        </p>
-      </div>
-      <div class="block2">
-
-        <img src="images/class-bike.jpg">
-
-      </div>
-      <div class="block3">
-
-        <p class="repair-p">
-          <a href="#" style="color: yellow;">Sign Up</a> for coupons and special discoints on classes and accesories!
-
-
-        </p>
+  </section>
+  <hr>
+  <section id="class">
+    <h2 class="black-heading2">Classes</h2>
+    <div class="block1">
+      <p class="repair-p">Weekly classes for beginers to novice riders.
+        <br />
+        Sign up for our newsletter to get updates and info on all upcoming classes!
         <br />
         <br />
-      </div>
+
+        Training: 612-722-9947
+      </p>
+    </div>
+    <div class="block2">
+
+      <img src="images/class-bike.jpg">
+
+    </div>
+    <div class="block3">
+
+      <p class="repair-p">
+        <a href="#" style="color: yellow;">Sign Up</a> for coupons and special discoints on classes and accesories!
+
+
+      </p>
+      <br />
+      <br />
+    </div>
     </div>
 
 

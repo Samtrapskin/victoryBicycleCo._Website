@@ -1,4 +1,4 @@
-console.log('js');
+
 
 
 
@@ -10,13 +10,26 @@ function readyNow() {
     $('.location').mouseenter (locMouseEnter);
     $('.location').mouseleave (locMouseLeave);
 
-    $('.resources').mouseenter (locMouseEnter);
+    $('.bikes-button').on('click', () => {
+        $('.bike-dropdown-menu').toggle();
+    });
+    $('.accessories-button').on('click', () => {
+        $('.accessories-dropdown-menu').toggle();
+    });
+    $('.parts-button').on('click', () => {
+        $('.parts-dropdown-menu').toggle();
+        
+
+    });
+
+    
+
     $('.resources').mouseleave (locMouseLeave);
 
     $('.shop').mouseenter (shopMouseEnter);
     $('.shop').mouseleave (shopMouseLeave);
 
-    $('.contact').mouseenter (contactMouseEnter);
+    $('.dropdow-menu1').mouseenter (contactMouseEnter);
     $('.contact').mouseleave (contactMouseLeave);
 }
 

@@ -180,4 +180,89 @@ hr{
 
 
 
+.bikes-button, .accessories-button, .parts-button {
+  margin-bottom:12px;
+}
+.dropdown-menu {
+  background-color: #000000;
+}
+.dropdown-item {
+  color: #fff!important;
+  background-color: #000000 !important;
+  
+}
+
+.dropdown-item:hover {
+  background-color:#2463C5 !important;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.disabled h3 {
+ 
+  cursor: not-allowed; 
+}
+
+.button-active {
+  color: #C3FF00;
+  background-color: #535353; }
+
+nav {
+ 
+  color: #EFEFEF; 
+}
+
+li {
+  text-align: center;
+}
+
+ dl, ol, ul{
+  background-color: #000000!important;
+  list-style-type: none !important;
+  padding: 0;
+}
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    text-decoration: none;
+  }
+    nav .container object {
+      width: 4.5em;
+      padding: 1.2em 0.5em; 
+    }
+    nav .container .login-button,
+    nav .container .bikes-button {
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 1em 1.25em;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      cursor: pointer; 
+    }
+
+.nav-menu {
+  color: #EFEFEF;
+  display: flex;
+  justify-content: center; 
+}
+  .nav-menu .container {
+    padding: 1.5em;
+    display: flex; 
+  }
+   
+      .nav-menu .container ul li {
+        padding: 0.25em 2em; 
+        text-decoration-style: none;
+      }
+        .nav-menu .container ul li:first-child {
+          text-transform: uppercase;
+          color: #C3FF00;
+          letter-spacing: 0.05em; 
+        }
+
+.hide {
+  display: none; }
+
 
