@@ -25,6 +25,10 @@ hr{
   border-width: 1px;
 }
 
+.section-headline {
+  font-size: 1.75rem;
+  color: #fff;
+}
 
 /* Navigation bar */
 
@@ -180,9 +184,7 @@ hr{
 
 
 
-.bikes-button, .accessories-button, .parts-button {
-  margin-bottom:12px;
-}
+
 
 .dropdown-menu{
   background-color: #fff;
@@ -199,7 +201,11 @@ hr{
   list-style-type: none;
   padding: 0;
 }
-.dropdown-item:hover  {
+
+.dropdown-header:hover {
+  color: #2463C5;
+}
+.dropdown-item:hover{
   background-color:#2463C5 !important;
   color: #fff !important;
   cursor: pointer;
