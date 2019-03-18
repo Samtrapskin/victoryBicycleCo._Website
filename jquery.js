@@ -10,20 +10,10 @@ function readyNow() {
     $('.location').mouseenter (locMouseEnter);
     $('.location').mouseleave (locMouseLeave);
 
-    $('.bikes-button').on('click', () => {
-        $('.bike-dropdown-menu').toggle();
-    });
-    $('.accessories-button').on('click', () => {
-        $('.accessories-dropdown-menu').toggle();
-    });
-    $('.parts-button').on('click', () => {
-        $('.parts-dropdown-menu').toggle();
+
+  
         
-
-    });
-
-    
-
+ 
     $('.resources').mouseleave (locMouseLeave);
 
     $('.shop').mouseenter (shopMouseEnter);
@@ -31,7 +21,7 @@ function readyNow() {
 
     $('.dropdow-menu1').mouseenter (contactMouseEnter);
     $('.contact').mouseleave (contactMouseLeave);
-}
+
 
 
 
@@ -74,4 +64,6 @@ function shopMouseLeave (e) {
 function contactMouseLeave (e) {
     console.log('now red');
     $(e.target).css('background-color', 'black');
+}
+
 }

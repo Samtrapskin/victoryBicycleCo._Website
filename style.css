@@ -183,42 +183,42 @@ hr{
 .bikes-button, .accessories-button, .parts-button {
   margin-bottom:12px;
 }
-.dropdown-menu {
-  background-color: #000000;
-}
+
+.dropdown-menu{
+  background-color: #fff;
+  width:1200px;
+} 
+
 .dropdown-item {
-  color: #fff!important;
-  background-color: #000000 !important;
+  color: #000000 !important;
+  /* background-color: #000000 !important; */
+  
   
 }
-
-.dropdown-item:hover {
+.shop-categories {
+  list-style-type: none;
+  padding: 0;
+}
+.dropdown-item:hover  {
   background-color:#2463C5 !important;
-  font-size: 1.4rem;
+  color: #fff !important;
   cursor: pointer;
+}
+
+.link-header p {
+  font-size: 2rem;
+  text-decoration: underline;
 }
 .disabled h3 {
  
   cursor: not-allowed; 
 }
 
-.button-active {
-  color: #C3FF00;
-  background-color: #535353; }
+
 
 nav {
  
   color: #EFEFEF; 
-}
-
-li {
-  text-align: center;
-}
-
- dl, ol, ul{
-  background-color: #000000!important;
-  list-style-type: none !important;
-  padding: 0;
 }
   nav .container {
     display: flex;
