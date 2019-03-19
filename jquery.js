@@ -1,12 +1,18 @@
 
-
-
-
 $( document ).ready(readyNow)
 
 function readyNow() {
     console.log( 'jq');
 
+    $(".main").onepage_scroll ({
+        sectionContainer: "section",
+        easing: "ease-in-out",
+        animationTime: 1000,
+        pagination: true,
+        loop: false,
+        responsiveFallback: 600,
+        direction: "vertical"
+    });
     $('.location').mouseenter (locMouseEnter);
     $('.location').mouseleave (locMouseLeave);
 

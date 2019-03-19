@@ -4,6 +4,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link type="text/css" href="onepage-scroll.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=El+Messiri|Oleo+Script|Yellowtail" rel="stylesheet">
@@ -33,10 +34,11 @@
 </head>
 
 <body>
-  <section id="home">
-    <div class="container-fluid">
+  <div class="main">
+  <section class="home">
+    
       <!-- Nav Bar -->
-      <nav class="navbar fixed-top navbar-expand-xl navbar-dark">
+      <nav class="navbar sticky-top navbar-expand-xl navbar-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
           aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -120,11 +122,11 @@
           </ul>
         </div>
       </nav>
-    </div>
+    
 
 
     <div class="jumbotron text-center">
-      <h1>Victory Bicycke</h1>
+      <h1>Victory Bicycle</h1>
       <!-- <p>Clever tagline here :)</p> -->
     </div>
 
@@ -149,6 +151,7 @@
 
   <!-- carousel -->
   <!-- <div class="col-lg-2"></div> -->
+  <section class="idk">
   <div class="carousel col-lg-6">
     <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -178,15 +181,97 @@
 
 
 
-  </div>
-  </div>
   </section>
 
   <!-- END SHOP SECTION -->
   <hr>
   <!-- ABOUT US SECTION -->
-
-  <section id="about-us">
+ 
+  <section class="about-us">
+      <nav class="navbar sticky-top navbar-expand-xl navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="images/shield2.png" width="100" height="90" alt="">
+          </a>
+    
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Shop</a>
+                <div class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                  <div class="container-fluid">
+                    <div class="row">
+    
+    
+                      <div class="col-lg-3">
+                        <div class="link-header">
+                          <a class="header-click" href="#">
+                            <p class="dropdown-header">Bikes</p>
+                          </a>
+                        </div>
+                        <ul class="shop-categories">
+                          <li><a class="dropdown-item" href="#">Commuter/Urban</a></li>
+                          <li><a class="dropdown-item" href="#">Hybrid</a></li>
+                          <li><a class="dropdown-item" href="#">Mountain</a></li>
+                          <li><a class="dropdown-item" href="#">Childrens</a></li>
+                          <li><a class="dropdown-item" href="#">E-bikes</a></li>
+                          <li><a class="dropdown-item" href="#">Clearance</a></li>
+                        </ul>
+                      </div>
+                      <!-- <div class="col-lg-1"></div> -->
+                      <div class="col-lg-3">
+                        <div class="link-header">
+                          <p class="dropdown-header">Accessories</p>
+                        </div>
+                        <ul class="shop-categories">
+                          <li><a class="dropdown-item" href="#">Child carriers</a></li>
+                          <li><a class="dropdown-item" href="#">Safety</a></li>
+                          <li><a class="dropdown-item" href="#">Clothing</a></li>
+                          <li><a class="dropdown-item" href="#">Electronics</a></li>
+                          <li><a class="dropdown-item" href="#">Lights</a></li>
+                          <li><a class="dropdown-item" href="#">Locks/Security</a></li>
+                          <li><a class="dropdown-item" href="#">Pumps/Inflation</a></li>
+                          <li><a class="dropdown-item" href="#">Tools</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-1"></div>
+                      <div class="col-lg-3">
+                        <div class="link-header">
+                          <p class="dropdown-header">Parts and Components</p>
+                        </div>
+                        <ul class="shop-categories">
+                          <li><a class="dropdown-item" href="#">Tubes and Tires</a></li>
+                          <li><a class="dropdown-item" href="#">Seats and Sanddles</a></li>
+                          <li><a class="dropdown-item" href="#">Brakes</a></li>
+                          <li><a class="dropdown-item" href="#">Shifters</a></li>
+                          <li><a class="dropdown-item" href="#">Cables</a></li>
+                          <li><a class="dropdown-item" href="#">Suspension</a></li>
+                          <li><a class="dropdown-item" href="#">Other</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+    
+    
+    
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Repairs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Classes</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4">
@@ -216,7 +301,7 @@
 
   </section>
 
-  <section id="repair">
+  <section class="repair">
 
     <div class="section-text">
       <h2 class="black-heading">Repairs</h2>
@@ -249,7 +334,7 @@
       </div>
   </section>
   <hr>
-  <section id="class">
+  <section class="classes">
     <h2 class="black-heading2">Classes</h2>
     <div class="block1">
       <p class="repair-p">Weekly classes for beginers to novice riders.
@@ -286,12 +371,15 @@
 
 
 
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous">
     </script>
+     <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
       crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"></script>
+
+  </div>
 </body>

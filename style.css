@@ -25,6 +25,16 @@ hr{
   border-width: 1px;
 }
 
+.section {
+  width: 100%;
+  height: 100vh;
+}
+
+.main section.home,.main section.about-us,
+.main section.about-us, .main section.repair,.main section.classes{
+  background: #000000;
+}
+
 .section-headline {
   font-size: 1.75rem;
   color: #fff;
@@ -68,8 +78,8 @@ a {
  
 }
 
-.fixed-top {
-  left: 30px;
+.sticky-top {
+  position: Sticky !important;
 }
   /* END NAV BAR */
 
@@ -106,7 +116,7 @@ a {
 }
 
 .fixed-top {
-  position: relative;
+  position: relative !important;
 }
 }
 
@@ -132,7 +142,7 @@ a {
 }
 
 /* ABOUT US */
-#about-us {
+.about-us {
   text-align: center;
   color: #fff;
   background-color: black;
@@ -146,13 +156,13 @@ a {
 /* END ABOUT US */
 
 /* LOCATION SECTION */
-#location {
+.location {
   background-color: #dbd653;
   padding-bottom: 40px;
 
   /* margin: 20px; */
 }
-#hours  {
+.hours  {
   text-align: center;
   padding-left: 20px;
   color: black;
