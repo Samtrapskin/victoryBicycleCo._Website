@@ -33,15 +33,19 @@ hr{
 /* Navigation bar */
 
 .navbar {
-  padding: 0 0 4.5rem 0;
+  padding: 0 0 1.5rem 0;
 }
 .navbar-brand {
   font-family: 'Oleo+Script';
   font-size: 1.5rem;
 }
 
+a {
+  color: #fff !important;
+}
 .nav-item {
   padding: 0 18px;
+  color: #fff !important;
 }
 
 .nav-link {
@@ -49,6 +53,14 @@ hr{
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+ border: 1px solid #523F79;
+}
+
 
 #main-image{
   max-width: 100%;
@@ -67,11 +79,25 @@ hr{
     margin: 0 0 0 109px;
   }
 } 
+
+
+@media (max-width: 991px){
+.dropdown-menu {
+    position: absolute;
+    width: 427px !important;
+
+}
+}
+
 /* @media (min-width: 760px) {
   #shop-buttons {
     margin: 0 0 0 40px;
   }
-}  */
+}  
+
+
+
+*/
  /* SHOP SECTION  */
 
  #quick-shop {
@@ -188,7 +214,7 @@ hr{
 
 .dropdown-menu{
   background-color: #fff;
-  width:1200px;
+  width:925px;
 } 
 
 .dropdown-item {
@@ -209,6 +235,7 @@ hr{
   background-color:#2463C5 !important;
   color: #fff !important;
   cursor: pointer;
+  width: 179px;
 }
 
 .link-header p {
