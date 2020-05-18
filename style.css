@@ -13,15 +13,17 @@ h1 {
   padding: 3% 5%;
 }
 
+.spacer {
+  height: 150px;
+}
+
 hr{
   color: #808389;
   font-size: 3rem;
-  display: block;
+
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
+ 
   border-width: 1px;
 }
 
@@ -33,6 +35,7 @@ hr{
 .main section.home,.main section.about-us,
 .main section.about-us, .main section.repair,.main section.classes{
   background: #000000;
+  margin-bottom: 20px;
 }
 
 .section-headline {
@@ -42,9 +45,6 @@ hr{
 
 /* NAV BAR */
 
-.navbar {
-  padding: 0 0 1.5rem 0;
-}
 .navbar-brand {
   font-family: 'Oleo+Script';
   font-size: 1.5rem;
@@ -86,15 +86,31 @@ a {
   .jumbotron {
     background-color: transparent;
     padding: 0 !important;
-    margin-top: 80px;
+    
   }
-#main-image{
+  #main-image{
+    display: block;
+    max-width: 80%;
+   margin: auto;
+    text-align: center;
+  }
+
+  #second-image {
+    display: block;
+    max-width: 60%;
+   margin: auto;
+    text-align: center;
+  }
+.our-story {
+  clear: both;
+}
+#about-image {
   max-width: 100%;
-  /* margin: 10px 0 10px 170px;  */
-  text-align: center;
+  float: left;
 }
 
 .main-img {
+
   margin-top:106px;
 }
 
@@ -177,7 +193,11 @@ a {
 }
 /* END LOCATION SECTION */
 
-
+#class-container{
+  justify-content: center;
+    display: flex;
+    text-align: center;
+}
 /* RESOURCES */
 #resources  {
   padding-bottom: 40px;
@@ -188,6 +208,7 @@ a {
 .black-heading2  {
   color: white;
   padding-top: 70px;
+  text-align:center;
 }
 .repair-p {
   color: white;
@@ -307,6 +328,39 @@ nav {
         }
 
 .hide {
-  display: none; }
-
+  display: none; 
+}
+/* START FOOTER */
+#footer{
+  padding-top: 25px;
+  padding-bottom:100px;
+  background-color: #ff0000;
+}
+h4{
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom:12px;
+}
+.footer-text {
+  color: #ffffff;
+  line-height: 0.6;
+}
+.footer-wrap {
+  display: flex;
+  justify-content: center;
+}
+.left-col,.right-col,.middle-col{
+  margin: 0 12px;
+}
+.social-foot-icons{
+display: flex;
+justify-content: center;
+margin: 41px 0 0 0;
+}
+.copyright {
+display: flex;
+justify-content: center;
+margin: 12px 0 0 0;
+color: #ffffff;
+}
 

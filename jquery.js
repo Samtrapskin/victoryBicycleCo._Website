@@ -72,4 +72,8 @@ function contactMouseLeave (e) {
     $(e.target).css('background-color', 'black');
 }
 
+$('.carousel').carousel({
+    interval: 3800
+  })
+
 }
