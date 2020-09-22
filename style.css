@@ -142,11 +142,7 @@ hr{
   margin: auto;
 }
 
-#class-img{
-max-width: 100%;
-  width: 100%;
-  height: auto;
-}
+
 
 .main-img {
 
@@ -210,8 +206,8 @@ max-width: 100%;
 
 /* END ABOUT US */
 
-#repair-img{
-  max-width:100%;
+#repair-img,#class-img{
+  max-width:50%;
 
 }
 
