@@ -71,7 +71,9 @@ hr{
  
   #carousel-img {
     display: block;
-
+    max-width: 100%;
+    height: auto;
+  
    margin: auto;
     text-align: center;
   }
@@ -104,7 +106,7 @@ hr{
 }
 #about-image {
   max-width: 100%;
-  float: left;
+ margin: auto;
 }
 
 #contact {
@@ -141,16 +143,18 @@ hr{
 }
 
 #class-img{
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
+max-width: 100%;
+  width: 100%;
+  height: auto;
 }
+
 .main-img {
 
   margin-top:106px;
 }
 .d-block {
   border-radius: 5%;
+  margin: auto;
 }
 /* @media (max-width: 1330px) {
   #main-image {
@@ -206,8 +210,8 @@ hr{
 
 /* END ABOUT US */
 
-.repair-img{
-  display: flex;
+#repair-img{
+  max-width:100%;
 
 }
 
@@ -335,3 +339,14 @@ margin: 12px 0 0 0;
 color: #ffffff;
 }
 
+@media (max-width: 767px) {
+
+.mobile-version{
+  width: 100%;
+  height: auto;
+}
+.spacer {
+  height: 275px;
+}
+
+}
