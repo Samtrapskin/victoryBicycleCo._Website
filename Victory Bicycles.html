@@ -34,103 +34,55 @@
 </head>
 
 <body>
-  <div class="main">
-    <section class="home">
 
+  <section class="home">
+
+    <div class="fluid-container">
       <!-- Nav Bar -->
-      <nav class="navbar sticky-top navbar-expand-xl navbar-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
         <a class="navbar-brand" href="#">
           <img src="images/shield2.png" width="100" height="90" alt="">
         </a>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">Shop</a>
-              <div class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                <div class="container-fluid">
-                  <div class="row">
-
-
-                    <div class="col-lg-3">
-                      <div class="link-header">
-                        <a class="header-click" href="#">
-                          <p class="dropdown-header">Bikes</p>
-                        </a>
-                      </div>
-                      <ul class="shop-categories">
-                        <li><a class="dropdown-item" href="#">Commuter/Urban</a></li>
-                        <li><a class="dropdown-item" href="#">Hybrid</a></li>
-                        <li><a class="dropdown-item" href="#">Mountain</a></li>
-                        <li><a class="dropdown-item" href="#">Childrens</a></li>
-                        <li><a class="dropdown-item" href="#">E-bikes</a></li>
-                        <li><a class="dropdown-item" href="#">Clearance</a></li>
-                      </ul>
-                    </div>
-                    <!-- <div class="col-lg-1"></div> -->
-                    <div class="col-lg-3">
-                      <div class="link-header">
-                        <p class="dropdown-header">Accessories</p>
-                      </div>
-                      <ul class="shop-categories">
-                        <li><a class="dropdown-item" href="#">Child carriers</a></li>
-                        <li><a class="dropdown-item" href="#">Safety</a></li>
-                        <li><a class="dropdown-item" href="#">Clothing</a></li>
-                        <li><a class="dropdown-item" href="#">Electronics</a></li>
-                        <li><a class="dropdown-item" href="#">Lights</a></li>
-                        <li><a class="dropdown-item" href="#">Locks/Security</a></li>
-                        <li><a class="dropdown-item" href="#">Pumps/Inflation</a></li>
-                        <li><a class="dropdown-item" href="#">Tools</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-3">
-                      <div class="link-header">
-                        <p class="dropdown-header">Parts and Components</p>
-                      </div>
-                      <ul class="shop-categories">
-                        <li><a class="dropdown-item" href="#">Tubes and Tires</a></li>
-                        <li><a class="dropdown-item" href="#">Seats and Sanddles</a></li>
-                        <li><a class="dropdown-item" href="#">Brakes</a></li>
-                        <li><a class="dropdown-item" href="#">Shifters</a></li>
-                        <li><a class="dropdown-item" href="#">Cables</a></li>
-                        <li><a class="dropdown-item" href="#">Suspension</a></li>
-                        <li><a class="dropdown-item" href="#">Other</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
-
-
-
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Repairs</a>
+              <a class="nav-link" href="#">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Classes</a>
+              <a class="nav-link" href="#">Pricing</a>
             </li>
+
           </ul>
         </div>
       </nav>
 
 
 
+
+
+
       <div class="jumbotron text-center">
         <h1>Victory Bicycle</h1>
         <!-- <p>Clever tagline here :)</p> -->
-      </div>
-
-      <div class="container">
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -140,14 +92,14 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img id="main-image" src="images/black-bike.png" alt="feature bike" class="d-block w-100" alt="...">
+              <img class="carousel-img" src="images/black-bike.png" alt="feature bike" class="d-block w-75" alt="...">
             </div>
             <div class="carousel-item">
-              <img id="second-image" src="images/clearance-bikes.jpg" alt="feature ebike" class="d-block w-100"
+              <img class="carousel-img" src="images/clearance-bikes.jpg" alt="feature ebike" class="d-block w-75"
                 alt="...">
             </div>
             <div class="carousel-item">
-              <img src="images/genesis-banner.jpg" class="d-block w-100" alt="2019 Genesis Bike">
+              <img class="carousel-img" src="images/genesis-banner.jpg" class="d-block w-75" alt="2019 Genesis Bike">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -165,198 +117,152 @@
         </div>
       </div> -->
       </div>
+    </div>
+  </section>
+  <div class="spacer"></div>
 
-    </section>
-    <div class="spacer"></div>
+  <!-- ABOUT US SECTION -->
 
-    <!-- ABOUT US SECTION -->
+  <section class="about">
 
-    <section class="about-us">
-      <nav class="navbar sticky-top navbar-expand-xl navbar-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">
-          <img src="images/shield2.png" width="100" height="90" alt="">
-        </a>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">Shop</a>
-              <div class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                <div class="container-fluid">
-                  <div class="row">
-
-
-                    <div class="col-lg-3">
-                      <div class="link-header">
-                        <a class="header-click" href="#">
-                          <p class="dropdown-header">Bikes</p>
-                        </a>
-                      </div>
-                      <ul class="shop-categories">
-                        <li><a class="dropdown-item" href="#">Commuter/Urban</a></li>
-                        <li><a class="dropdown-item" href="#">Hybrid</a></li>
-                        <li><a class="dropdown-item" href="#">Mountain</a></li>
-                        <li><a class="dropdown-item" href="#">Childrens</a></li>
-                        <li><a class="dropdown-item" href="#">E-bikes</a></li>
-                        <li><a class="dropdown-item" href="#">Clearance</a></li>
-                      </ul>
-                    </div>
-                    <!-- <div class="col-lg-1"></div> -->
-                    <div class="col-lg-3">
-                      <div class="link-header">
-                        <p class="dropdown-header">Accessories</p>
-                      </div>
-                      <ul class="shop-categories">
-                        <li><a class="dropdown-item" href="#">Child carriers</a></li>
-                        <li><a class="dropdown-item" href="#">Safety</a></li>
-                        <li><a class="dropdown-item" href="#">Clothing</a></li>
-                        <li><a class="dropdown-item" href="#">Electronics</a></li>
-                        <li><a class="dropdown-item" href="#">Lights</a></li>
-                        <li><a class="dropdown-item" href="#">Locks/Security</a></li>
-                        <li><a class="dropdown-item" href="#">Pumps/Inflation</a></li>
-                        <li><a class="dropdown-item" href="#">Tools</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-3">
-                      <div class="link-header">
-                        <p class="dropdown-header">Parts and Components</p>
-                      </div>
-                      <ul class="shop-categories">
-                        <li><a class="dropdown-item" href="#">Tubes and Tires</a></li>
-                        <li><a class="dropdown-item" href="#">Seats and Sanddles</a></li>
-                        <li><a class="dropdown-item" href="#">Brakes</a></li>
-                        <li><a class="dropdown-item" href="#">Shifters</a></li>
-                        <li><a class="dropdown-item" href="#">Cables</a></li>
-                        <li><a class="dropdown-item" href="#">Suspension</a></li>
-                        <li><a class="dropdown-item" href="#">Other</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-
-
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Repairs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Classes</a>
-            </li>
-          </ul>
+    <div class="fluid-container">
+      <div class="row">
+        <div class="col headline">
+          Our Story
         </div>
-      </nav>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-4">
-
-
-
-            <h3>Our Story</h3>
-            <p class="our-story"> <img id="about-image" src="images/1960-bicycles.jpg"
-                alt="vintage-bicycle customer photo">Victory has been the longest running neighborhood bike shop in
-              Minneapolis.
-              Family owned, we've been keeping people riding and informed since 1956! Yes we sell
-              super awesome bicycles, but we also provide classes and have THE best bike repair shop in the
-              midwest.
-            </p>
-          </div>
-
-
-
-          <div class="col-lg-4">
-            <h3>Contact us anytime!</h3>
-            <p>612-555-5555</p>
-            <p>Email:&nbsp;&nbsp;<a href="">bicycles@victorybicycles.com</a></p>
-            <i class="fab fa-facebook-square"></i>&nbsp;&nbsp;<i class="fab fa-twitter"></i>&nbsp;&nbsp;<i
-              class="fab fa-linkedin"></i>
-
-
-          </div>
+      </div>
+      <div class="row" id="about-row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4">
+          <img id="about-image" class="d-block w-75" src="images/1960-bicycles.jpg"
+            alt="vintage-bicycle customer photo">
+        </div>
+        <div class="col-lg-6" id="about-us">
+          Victory has been the
+          longest running neighborhood bike shop in
+          Minneapolis.<br>
+          <br>Family owned, we've been keeping people riding and informed since 1956! <br>
+          <br>Yes we sell super awesome bicycles, but we also provide classes and have <span>THE</span> best bike repair
+          shop in the
+          midwest.
         </div>
       </div>
 
 
-    </section>
+      <div class="row">
 
-    <section class="repair">
-
-      <div class="section-text">
-        <h2 class="black-heading">Repairs</h2>
-
-        <div class="block1">
-          <p class="repair-p">Our Bike doctor's will get you back to riding in no time.
-            <br />
-            Call today to get a quote on any repair!
-            <br />
-            <br />
-
-            Shop: 612-722-9947
-          </p>
+        <div class="col" id="contact">
+          Contact us anytime!
         </div>
       </div>
-      <div class="block2">
-
-        <img src="images/repair.jpg">
-
-      </div>
-
-      <div class="block3">
-
-        <p class="repair-p">
-          <a href="#" style="color: yellow;">Click here</a> to schedule your appointment! Our turn-around time is
-          the fastest in the city !!!
-
-        </p>
-        <br />
-        <br />
-      </div>
-    </section>
-    <hr>
-    <section class="classes">
-      <h2 class="black-heading2">Classes</h2>
-      <div class="container" id="class-container">
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-4">
-            <p class="repair-p">Weekly classes for beginers to novice riders.</p>
-            <p class="repair-p">Sign up for our newsletter to get updates and info on all upcoming classes!<p
-                class="repair-p"></p>
-              <p class="repair-p">Training: 612-722-9947</p>
-              <p class="repair-p">
-                <a href="#" style="color: yellow;">Sign Up</a> for coupons and special discoints on classes and
-                accesories!
-              </p>
-          </div>
-          <div class="col-6">
-            <img src="images/class-bike.jpg">
-          </div>
-          <div class="col-1"></div>
+      <div class="row">
+        <div class="col" id="contact">
+          612-555-5555
         </div>
-     
-
+      </div>
+      <div class="row">
+        <div class="col" id="email">
+          Email: &nbsp;<a href="">bicycles@victorybicycles.com</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" id="social-net">
+          <i class="fab fa-facebook-square"></i>&nbsp;
+          <i class="fab fa-twitter"></i>&nbsp;
+          <i class="fab fa-linkedin"></i>
+        </div>
       </div>
 
 
-  </div>
+    </div>
+    </div>
+    </div>
 
-  </div>
 
   </section>
+  <div class="spacer"></div>
+
+  <section class="repair">
+    <div class="fluid-container">
+      <div class="row">
+        <div class="col headline">
+          Repairs
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-4 class=" repair-img">
+          <img src="images/repair.jpg" class="d-block w-75 alt="">
+      </div>
+    
+
+ 
+   
+      <div class=" col-lg-6 repairs">
+          Our Bike doctor's will get you back to riding in no time.
+          <br>
+          Call today to get a quote on any repair!
+          <br>
+          Shop: 612-722-9947
+        </div>
+
+
+      </div>
+
+      <div class="row">
+        <div class="col" id="repair-sched">
+          <div class="repairs">
+          <a href="#" style="color: yellow;">Click here &nbsp;
+          </a> to schedule your appointment! 
+          <br>
+          Our turn-around time is
+          the fastest in the city !!!
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="spacer"></div>
+
+  <section class="classes">
+    <div class="fluid-container">
+      <div class="row">
+   <div class="col headline">Classes</div>
+      </div>
+    
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-4" id="classes">
+          Weekly classes for beginers to novice riders.<br>
+          <a href="#" style="color: yellow;">Sign Up</a>&nbsp;
+          for our newsletter to get updates and info on all upcoming classes!<br>
+         
+           
+       
+        </div>
+        <div class="col-7" id="class-img">
+          <img src="images/class-bike.jpg" class="d-block w-50 alt="">
+        </div>
+        <div class="col-1"></div>
+      </div>
+
+
+    </div>
+
+
+
+
+    </div>
+
+  </section>
+  <div class="spacer"></div>
   <section id="footer">
     <div class="container" id="footer-container">
-      
-       <div class="row">
+
+      <div class="row">
         <div class="col-lg-4 foot-center">
           <h4>Victorty Bicycles</h4>
           <p class="footer-text">2205 30th Avenue South</p>
@@ -377,31 +283,31 @@
           <p class="footer-text">site map</p>
         </div>
       </div>
-    
+
       <div class="social-foot-icons">
         <div class="row">
           <div class="col-lg-4">
-          
+
           </div>
           <div class="col-lg-4">
             <i class="fab fa-facebook-square fa-3x"></i>
-          <i class="fab fa-twitter fa-3x"></i>
-          <i class="fab fa-linkedin fa-3x"></i>
+            <i class="fab fa-twitter fa-3x"></i>
+            <i class="fab fa-linkedin fa-3x"></i>
           </div>
           <div class="col-lg-4">
           </div>
         </div>
       </div>
-   
-    <div class="row">
-      <div class="col">
-        <div class="copyright">
-        <p>Copyright 2019 Victory Bicycles | Accesebility Statement</p>
-      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="copyright">
+            <p>Copyright 2020 Victory Bicycles | Accesebility Statement</p>
+          </div>
+        </div>
       </div>
     </div>
     </div>
-  </div>
   </section>
   </div>
 
