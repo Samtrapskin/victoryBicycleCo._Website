@@ -309,3 +309,30 @@ h4 {
     height: 275px;
   }
 }
+
+
+#first-container {
+  
+  margin: 0px 60px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.logo {
+  margin-right: auto;
+  color: #ffffff;
+}
+
+.navi-item {
+  color: #ffffff;
+  margin: 25px 12px;
+  
+}
+
+.wrapper{
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 66;
+}
