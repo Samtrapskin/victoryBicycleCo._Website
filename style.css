@@ -63,6 +63,11 @@ section.repair .main section.about,
 
 /* END NAV BAR */
 
+.down-arrow{
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
 .jumbotron {
   background-color: transparent;
   padding: 0 !important;
@@ -307,13 +312,17 @@ h4 {
   }
 }
 
+#nav-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 66;
+}
 
-#first-container {
-  
-  margin: 0px 60px;
+.pg-nav-container {
   display: flex;
-  justify-content: flex-end;
-  
+  margin: 15px 45px;
+    position: sticky;
+   
 }
 
 .logo {
@@ -328,6 +337,7 @@ h4 {
 }
 
 .wrapper{
+  display: flex;
   width: 100%;
   position: sticky;
   top: 0;
