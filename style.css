@@ -90,12 +90,12 @@ section.repair .main section.about,
   margin-bottom: 50px;
 }
 
-#about-us,
-.repairs {
+#about-us,#classes,.repairs {
   margin: auto;
   color: #ffffff;
   font-size: 23px;
-  padding: 0 50px;
+  padding: 0 75px;
+  text-align: center;
 }
 
 #about-us span {
@@ -116,15 +116,7 @@ section.repair .main section.about,
   font-size: 22px;
 }
 
-.repairs {
-  color: #ffffff;
-  
-  display: flex;
-  color: #ffffff;
-  padding: 0 200px;
-  font-size: 23px;
-  margin: 50px;
-}
+
 
 #repair-sched {
   display: flex;
@@ -132,15 +124,20 @@ section.repair .main section.about,
   margin: 50px;
 }
 
-#classes {
+/* #classes {
   display: flex;
   flex-wrap: wrap;
   color: #ffffff;
   font-size: 23px;
   padding: 2px 200px;
   margin: 50px;
-}
+} */
 
+@media (min-width: 576px) {
+  #about-us,#classes,.repairs {
+  padding: 15px;
+}
+}
 .d-block {
   border-radius: 5%;
   margin: auto;
