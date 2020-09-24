@@ -92,12 +92,10 @@ section.repair .main section.about,
 
 #about-us,
 .repairs {
-  display: flex;
-  justify-content: space-around;
-  color: #ffffff;
   margin: auto;
+  color: #ffffff;
   font-size: 23px;
-  margin-bottom: 50px
+  padding: 0 50px;
 }
 
 #about-us span {
@@ -105,15 +103,9 @@ section.repair .main section.about,
   display: contents;
 }
 
-#about-image {
-  max-width: 100%;
-  margin: auto;
-}
 
-#contact {
-  justify-content: space-around;
-  margin: auto;
-}
+
+
 
 #contact,
 #email,
@@ -121,12 +113,17 @@ section.repair .main section.about,
   display: flex;
   justify-content: center;
   color: #ffffff;
-  font-size: 25px
+  font-size: 22px;
 }
 
 .repairs {
   color: #ffffff;
-  font-size: 25px
+  
+  display: flex;
+  color: #ffffff;
+  padding: 0 200px;
+  font-size: 23px;
+  margin: 50px;
 }
 
 #repair-sched {
@@ -136,9 +133,12 @@ section.repair .main section.about,
 }
 
 #classes {
+  display: flex;
+  flex-wrap: wrap;
   color: #ffffff;
-  font-size: 25px;
-  margin: auto;
+  font-size: 23px;
+  padding: 2px 200px;
+  margin: 50px;
 }
 
 .d-block {
@@ -342,6 +342,7 @@ a{
 }
 a:hover{
   color: hotpink;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 25px;
+  transition: all 1.3s;
 }
