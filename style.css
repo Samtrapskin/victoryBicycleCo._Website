@@ -65,6 +65,7 @@ section.repair .main section.about,
 
 .down-arrow{
   display: flex;
+  margin-top: 50px;
   justify-content: center;
   color: #ffffff;
 }
@@ -170,10 +171,6 @@ section.repair .main section.about,
   margin-bottom: 175px;
 }
 
-.jumbotron {
-  margin-top: 75px;
-}
-
 .carousel {
   margin-top: 40px;
 }
@@ -274,7 +271,7 @@ h4 {
   margin-bottom: 12px;
 }
 
-.footer-text {
+.footer-text,.footer-text-left {
   color: #ffffff;
   line-height: 0.6;
 }
@@ -296,7 +293,7 @@ h4 {
 .copyright {
   display: flex;
   justify-content: center;
-  margin: 12px 0 0 0;
+  margin: 12px 0 40px 0;
   color: #ffffff;
 }
 
@@ -349,6 +346,13 @@ a{
 }
 a:hover{
   color: hotpink;
+  text-decoration: underline;
+  font-size: 25px;
+  transition: all 1.3s;
+}
+
+.footer-text:hover {
+  color: #7d1ce3;
   text-decoration: underline;
   font-size: 25px;
   transition: all 1.3s;
